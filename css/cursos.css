@@ -21,7 +21,7 @@
     align-items: center;
   }
   
-  .logo {
+  .logo a {
     font-size: 24px;
     color: rgb(2, 2, 2);
   }

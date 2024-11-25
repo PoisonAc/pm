@@ -95,11 +95,11 @@ body {
     margin-bottom: 10px;
   }
   
-  .footer-links ul {
+  .footer-links ul  {
     list-style: none;
   }
   
-  .footer-links a {
+  .footer-links  {
     text-decoration: none;
     color: rgb(10, 10, 10);
   }
