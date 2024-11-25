@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Perfil - ETIM</title>
+  <link rel="stylesheet" href="../css/profile.css">
+  <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.6.0/uicons-regular-straight/css/uicons-regular-straight.css'>
+  <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.6.0/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+</head>
+<body>
+  <header>
+    <div class="logo">ETIM</div>
+    <nav>
+      <ul>
+        <li><i class="fi fi-rr-search"></i></li>
+        <li><a href="#"><b>Sobre</b> </a></li>
+        <li><a href="#"><b>Destaque</b> </a></li>
+        <li><i class="fi fi-rs-shopping-cart"></i></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="profile-section">
+      <div class="profile-info">
+        <h1>Perfil</h1>
+        <p>Lembre-se que suas informações pessoais não podem ser alteradas, apenas seu perfil de exibição ou forma de pagamento.</p>
+
+        <form class="profile-form">
+          <label for="username">Nome de usuário</label>
+          <input type="text" id="username" value="Mari_2001" readonly>
+
+          <label for="email">Email</label>
+          <input type="email" id="email" value="maria123@gmail.com" readonly>
+
+          <label for="password">Senha</label>
+          <div class="password-wrapper">
+            <input type="password" id="password" value="****" readonly>
+          </div>
+          <p class="info">Para alteração de senhas será enviado um email</p>
+<p><u>Alterar Senha</u></p>
+        </form>
+      </div>
+
+      <div class="profile-photo">
+        <img src="../imagens/profile.jpeg" alt="Foto de Perfil">
+<p><u>Remover Foto de Perfil</u></p>
+      </div>
+    </section>
+
+    <section class="payment-section">
+      <h2>Método de pagamento e Cobrança</h2>
+
+      <form class="payment-form">
+        <label for="card">Cartão</label>
+        <div class="card-wrapper">
+          <input type="text" id="card" value="MasterCard 7846" readonly>
+        </div>
+<p><u>Alterar Método de Pagamento</u></p>
+<p><u>Desativar Cobrança Recorrente</u></p>
+      </form>
+    </section>
+  </main>
+</body>
+</html>

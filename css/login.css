@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    color: #000;
+    background-color: #f7f7bc93;
+  }
+  
+  /* Header */
+  header {
+    background-color: #49773a;
+    color: rgb(3, 3, 3);
+    padding: 10px 20px;
+  }
+  
+  .header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+  }
+  
+  header nav a {
+    text-decoration: none;
+    color: rgb(7, 7, 7);
+  }
+  
+  .icons span {
+    margin-left: 15px;
+    cursor: pointer;
+  }
+  
+  /* Main */
+  main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+  }
+  
+  .login-container {
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f7f7bc93;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .login-container h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    background-color: #f7f7bc93;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  form input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #0a0a0a;
+    border-radius: 5px;
+    background-color: #f7f7bc93;
+  }
+  
+  .password-field {
+    position: relative;
+  }
+  
+  .password-field .toggle-password {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+  }
+  
+  .forgot-password {
+    font-size: 0.9rem;
+    text-decoration: none;
+    color: #000;
+  }
+  
+  .login-button {
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .google-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #070707;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #ccc;
+    gap: 10px;
+  }
+  
+  .register-link {
+    margin-top: 10px;
+    font-size: 0.9rem;
+    text-decoration: none;
+    color: #000;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #49773a;
+    color: rgb(3, 3, 3);
+    padding: 20px;
+  }
+  
+  .footer-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .footer-links {
+    display: flex;
+    gap: 30px;
+  }
+  
+  .footer-links h3 {
+    margin-bottom: 10px;
+  }
+  
+  .footer-links ul {
+    list-style: none;
+  }
+  
+  .footer-links a {
+    text-decoration: none;
+    color: rgb(10, 10, 10);
+  }
+  
+  .footer-icons a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: rgb(8, 8, 8);
+    font-size: 1.5rem;
+  }

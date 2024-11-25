@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    color: #000;
+    background-color: #f7f7bc93;
+  }
+  
+  /* Header */
+  header {
+    background-color: #49773a;
+    color: rgb(2, 2, 2);
+    padding: 10px 20px;
+  }
+  
+  .header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+  }
+  
+  header nav a {
+    text-decoration: none;
+    color: rgb(2, 2, 2);
+  }
+  
+  .icons span {
+    margin-left: 15px;
+    cursor: pointer;
+  }
+  
+  /* Main */
+  main {
+    text-align: center;
+    padding: 40px 20px;
+  }
+  
+  .form-container {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  .form-container h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .form-container p {
+    margin-bottom: 20px;
+    font-size: 1rem;
+  }
+  
+  .form-container a {
+    display: inline-block;
+    margin-bottom: 20px;
+    color: #000;
+    text-decoration: none;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .form-row {
+    display: flex;
+    gap: 10px;
+  }
+  
+  form input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #050505;
+    border-radius: 5px;
+  }
+  
+  button {
+    background-color: #000;
+    color: #f5f0f0;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #444;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #49773a;
+    color: rgb(5, 5, 5);
+    padding: 20px;
+  }
+  
+  .footer-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .footer-links {
+    display: flex;
+    gap: 30px;
+  }
+  
+  .footer-links h3 {
+    margin-bottom: 10px;
+  }
+  
+  .footer-links ul {
+    list-style: none;
+  }
+  
+  .footer-links a {
+    text-decoration: none;
+    color: rgb(7, 7, 7);
+  }
+  
+  .footer-icons a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: rgb(8, 8, 8);
+    font-size: 1.5rem;
+  }
