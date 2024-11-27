@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finalizar Compra</title>
+    <link rel="stylesheet" href="../css/compra.css">
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.6.0/uicons-brands/css/uicons-brands.css'>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.6.0/uicons-brands/css/uicons-brands.css'>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.6.0/uicons-regular-straight/css/uicons-regular-straight.css'>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.6.0/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1 class="logo">ETIM</h1>
+            <nav>
+                <ul>
+                    <li><i class="fi fi-rr-search"></i></li>
+                    <li><a href="#">Sobre</a></li>
+                    <li><a href="#">Destaque</a></li>
+                    <li><i class="fi fi-rs-shopping-cart"></i></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <main>
+        <section class="purchase-section">
+            <h2>Finalizar Compra:</h2>
+            <div class="payment-info">
+                <label for="payment-method">Método de Pagamento Atual</label>
+                <div class="payment-method">
+                    <input type="text" id="payment-method" value="MasterCard 7846" readonly>
+                    <button class="card-icon">💳</button>
+                </div>
+            </div>
+            <div class="course-card">
+                <div class="course-header">
+                    <h3>Curso:</h3>
+                    <h1>Álgebra Avançada</h1>
+                    <div class="course-details">
+                        <span>Duração <strong>11h</strong></span>
+                        <span>Nível <strong>Avançado</strong></span>
+                    </div>
+                </div>
+                <div class="payment-options">
+                    <button class="payment-method-button">MasterCard 7846</button>
+                    <button class="bank-slip">Boleto Bancário</button>
+                    <a href="#" class="change-method">Alterar Método de Pagamento</a>
+                </div>
+                <div class="action-buttons">
+                    <button class="finalize-button">FINALIZAR COMPRA</button>
+                    <button class="pay-with-pix">PAGAR COM PIX</button>
+                </div>
+                <p class="confirmation-text">O Comprovante do Pagamento será enviado no email</p>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

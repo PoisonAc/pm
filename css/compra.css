@@ -1,0 +1,159 @@
+/* General Reset */
+body, h1, h2, h3, p, div, span, input, button, a {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Header Styles */
+header {
+    background-color: #566A37;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+.logo {
+    color: #050505;
+    font-size: 1.5rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    color: #121212;
+    text-decoration: none;
+}
+
+.cart-menu {
+    display: flex;
+    gap: 10px;
+}
+
+/* Main Content */
+main {
+    padding: 20px;
+    background-color: #FAE9E5;
+}
+
+.purchase-section {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Payment Info */
+.payment-info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.payment-method {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#payment-method {
+    padding: 10px;
+    width: 200px;
+    border: 1px solid #DDD;
+    border-radius: 5px;
+}
+
+/* Course Card */
+.course-card {
+    background-color: #90B4E6;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.course-header h3 {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.course-header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.course-details {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 20px;
+}
+
+/* Payment Options */
+.payment-options {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.payment-method-button,
+.bank-slip {
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #DDD;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.change-method {
+    color: #333;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/* Action Buttons */
+.action-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.finalize-button,
+.pay-with-pix {
+    background-color: #000;
+    color: #FFF;
+    padding: 15px;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.pay-with-pix {
+    background-color: #00BFA5;
+}
+
+/* Confirmation Text */
+.confirmation-text {
+    margin-top: 10px;
+    font-size: 0.9rem;
+    color: #333;
+}
